@@ -1,1 +1,30 @@
 # SPX and 0dte Analysis.!
+
+
+0dte/
+│── config/               # Configuration files (e.g., API keys, model parameters)
+│── data/                 # Raw and processed data
+│   ├── raw/              # Unprocessed market and options data
+│   ├── processed/        # Cleaned and transformed data
+│── notebooks/            # Jupyter notebooks for exploration & research
+│── src/                  # Source code for project
+│   ├── data_ingestion.py  # Fetch and store options data (e.g., Polygon.io)
+│   ├── preprocessing.py   # Data cleaning, feature engineering
+│   ├── strategy/         # Trading strategies
+│   │   ├── short_strangle.py  # Model implementation for Short Strangle
+│   │   ├── reinforcement_learning.py  # AI-based strategy (e.g., PPO, DQN)
+│   ├── models/           # Trained ML models
+│   │   ├── model_train.py  # Model training scripts
+│   │   ├── model_eval.py   # Model evaluation
+│   ├── execution/        # Trade execution engine
+│   ├── backtesting/      # Backtesting framework for strategies
+│   ├── utils/            # Utility functions (logging, visualization, etc.)
+│── tests/                # Unit tests and validation scripts
+│── scripts/              # Deployment and automation scripts
+│── reports/              # Analysis and performance reports
+│── requirements.txt      # Dependencies
+│── setup.py              # Project setup script
+│── README.md             # Project documentation
+│── .env                  # Environment variables (API keys, secrets)
+│── docker-compose.yml    # For containerized deployment (if needed)
+│── .gitignore            # Ignore unnecessary files
